@@ -1,6 +1,9 @@
 # keras-sentiment-analysis
 Simple natural language processing using Keras and Spark in R. Models are trained on 10,000 positive and 10,000 negative hotel reviews of hotels in Europe.
 
+## Report
+Report available at www.yanislavzagorov.com/keras-sentiment-analysis-report
+
 ## The data
 The dataset '515K Hotel Reviews Data in Europe' is provided by Jason Liu and hosted on kaggle.com. The full dataset is available here: https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe
 Currently, the data undergoes an unnecessary process of being put in and out of ffbase storage and into a local NOSQL mongo database after cleaning. This is solely done as a proof of concept and to play around with the libraries, and will be removed when I have the time.
